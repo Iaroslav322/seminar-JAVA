@@ -1,2 +1,9 @@
-package lesson2;public class HW3 {
+package lesson2;
+
+
+public class HW3 {
+    public static void main(String[] args) {
+
+    }
 }
+
