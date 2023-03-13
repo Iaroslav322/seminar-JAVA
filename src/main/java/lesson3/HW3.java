@@ -2,7 +2,7 @@ package lesson3;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.Random;
-
+//3. Создать список типа ArrayList<String>. Поместить в него как строки, так и целые числа. Пройти по списку, найти и удалить целые числа.
 public class HW3 {
     public static void main(String[] args) {
         forExample();

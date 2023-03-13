@@ -2,6 +2,7 @@ package lesson3;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+//2. Задан целочисленный список ArrayList. Найти минимальное, максимальное и среднее арифметическое из этого списка.
 public class HW2 {
     public static void main(String[] args){
         List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, -9, 18);

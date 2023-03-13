@@ -1,7 +1,7 @@
 package lesson3;
 import java.util.ArrayList;
 import java.util.Random;
-
+//1. Пусть дан произвольный список целых чисел, удалить из него четные числа (в языке уже есть что-то готовое для этого)
 public class HW1 {
     public static void main(String[] args) {
         Random rnd = new Random();
