@@ -1,6 +1,7 @@
 package lesson3;
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.Random;
 
 public class HW3 {
     public static void main(String[] args) {
@@ -9,8 +10,13 @@ public class HW3 {
     }
 
     public static void forExample() {
-        List<Integer> ourList = Arrays.asList(1, 2, 3, 4, 5, 2, 4, 5, 2);
-        List<Integer> listWithoutDuplicates = ourList.stream().distinct().collect(Collectors.toList());
+        Random rnd = new Random();
+        ArrayList<Integer> ourList = new ArrayList<Integer>();
+        for (int i = 0; i < 10; i++) {
+            int val = rnd.nextInt(-10, 10);
+            ourList.add(val);
+        }
+        List<Integer> listWithoutDuplicates = ourList.stream().distinct().toList();
         System.out.println("Наш список из чисел" + ourList);
         System.out.println("Удалили дублирующие значения " + listWithoutDuplicates);
     }
